@@ -786,4 +786,74 @@ void main()
     else
         printf("\n STEAM");
     getchar();
+    
+    
+    
+#include <stdio.h>
+void main()
+{
+
+
+int a,b,c;
+
+    printf("ENTER THE FIRST NUMBER YOU WANT TO ENTER:");
+    scanf("%d",&a);
+
+    printf("ENTER THE SECOND NUMBER YOU WANT TO ENTER:");
+    scanf("%d",&b);
+
+    printf("ENTER THE THIRD NUMBER YOU WANT TO ENTER:");
+    scanf("%d",c);
+
+    (a>b)? ((a>c)?printf("the greater number is %d",a): printf("the greater number is %d",c)):((b>c)?printf("the greater number is %d",b):printf("the greater number is %d",c));
 }
+
+{
+
+    int n=10;
+    while (n<=100)
+{
+    printf("%d\n",n++);
+
+}
+
+}
+
+
+{
+
+    int n;
+    for(n=10;n<=100;n++)
+    {
+
+        printf("%d\n",n);
+    }
+}
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
