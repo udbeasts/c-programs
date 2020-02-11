@@ -834,6 +834,33 @@ int a,b,c;
 
     
     
+Q.  WAP to check wheather a number is a krishnamurty number or not  
+    
+    #   include<stdio.h>
+int main()
+{
+int i,q,a=0,d,t,z=1;
+printf("enter the number:");
+scanf("%d",&q);
+t=q;
+while(q>0)
+{
+    z=1;
+d=q%10;
+for ( i=1;i<=d;i++)
+{
+    z=z*i;
+}
+a=a+z;
+q=q/10;
+}
+if(a==z)
+    printf("krishnamurti number");
+else
+    printf("not a krishnamurti number");
+}
+
+    
     
     
     
