@@ -849,7 +849,7 @@ while(q>0)
 d=q%10;
 for ( i=1;i<=d;i++)
 {
-    z=z*i;
+    z=z*i;			\showing a error that - every numer is not a krishnamurty number
 }
 a=a+z;
 q=q/10;
