@@ -845,8 +845,9 @@ scanf("%d",&q);
 t=q;
 while(q>0)
 {
-    z=1;
+    
 d=q%10;
+z=1;
 for ( i=1;i<=d;i++)
 {
     z=z*i;			\showing a error that - every numer is not a krishnamurty number
@@ -854,7 +855,7 @@ for ( i=1;i<=d;i++)
 a=a+z;
 q=q/10;
 }
-if(a==z)
+if(a==t)
     printf("krishnamurti number");
 else
     printf("not a krishnamurti number");
